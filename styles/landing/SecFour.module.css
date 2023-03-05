@@ -1,0 +1,51 @@
+.s4 {
+    /* background: lightgray; */
+    display: flex;
+}
+
+.planet4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 10%;
+    top: 30%;
+}
+.planet5 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: -10%;
+    bottom: 10%;
+}
+.b4 {
+    /* border: 2px solid red; */
+    width: 100%;
+    max-width: 500px;
+    align-self: center;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.our {
+    /* border: 2px solid white; */
+    position: relative;
+    height: 100px;
+    width: 30%;
+    align-self: flex-start;
+
+    
+}
+
+.projects {
+    /* border: 2px solid white; */
+    position: relative;
+    height: 100px;
+    width: 80%;
+    align-self: flex-end;
+
+}

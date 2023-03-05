@@ -1,0 +1,44 @@
+
+.s3 {
+    /* background: lightgray; */
+    display: flex;
+    align-items: center;
+}
+
+.planet3 {
+    /* border: 2px solid red; */
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    left: 10%;
+    top: 35%;
+}
+.sbox {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .tbox {
+    border: 2px solid blue;
+} */
+.our {
+    position: relative;
+    /* border: 2px solid white; */
+    height: 70px;
+    width: 200px;
+}
+.services {
+    /* border: 2px solid white; */
+
+    position: relative;
+    height: 70px;
+    width: 300px;
+}
+
+@media screen and (min-width: 800px){
+    .planet3{
+        left: 25%;
+    }
+}
