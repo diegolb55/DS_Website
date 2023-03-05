@@ -26,10 +26,7 @@ export default function Home() {
         <SecThree/>
         <SecFour/>
        
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        
 
 
       </main>
