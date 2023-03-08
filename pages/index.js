@@ -5,6 +5,7 @@ import SecOne from '@/components/landing/SecOne'
 import SecTwo from '@/components/landing/SecTwo'
 import SecThree from "@/components/landing/SecThree"
 import SecFour from "@/components/landing/SecFour"
+import SecFive from '@/components/landing/SecFive'
 
 import { Inter } from 'next/font/google'
 
@@ -20,10 +21,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
-      <SecOne />
-      <SecTwo/>
-      <SecThree/>
-      <SecFour/>
+      <main className={styles.main}>
+        <SecOne />
+        <SecTwo/>
+        <SecThree/>
+        <SecFour/>
+        <SecFive />
+      </main>
        
         
 

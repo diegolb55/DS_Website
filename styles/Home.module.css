@@ -1,14 +1,22 @@
 .main {
-  overflow-x: hidden;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  /* border: 10px solid red; */
+  position: relative;
   height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
 }
 
+.main::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
 .main > section {
-  /* border: 2px dotted white; */
+  /* border: 2px solid white; */
   position: relative;
-  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
   scroll-snap-align: start;
 
 
