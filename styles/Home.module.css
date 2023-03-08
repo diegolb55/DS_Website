@@ -1,5 +1,4 @@
 .main {
-  height: 300px;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
