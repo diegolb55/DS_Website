@@ -5,26 +5,26 @@ export default function SecFour(){
     return (
         <section className={styles.s4}>
             <div className={styles.planet4}>
-                <Image fill
+                <Image alt="" fill
                     style={{objectFit:"contain"}}
                     src="/images/planet4.png"
                 />
             </div>
             <div className={styles.planet5}>
-                <Image fill
+                <Image alt="" fill
                     style={{objectFit:"contain"}}
                     src="/images/planet5.png"
                 />
             </div>
             <div className={styles.b4}>
                 <div className={styles.our}>
-                    <Image fill
+                    <Image alt="" fill
                         style={{objectFit:"contain"}}
                         src="/images/our.png"
                     />
                 </div>
                 <div className={styles.projects}>
-                    <Image fill
+                    <Image alt="" fill
                         style={{objectFit:"contain"}}
                         src="/images/services.png"
                     />

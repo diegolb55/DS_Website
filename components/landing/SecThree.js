@@ -5,7 +5,7 @@ export default function SecThree(){
     return (
         <section className={styles.s3}>
             <div className={styles.planet3}>
-                <Image src={"/images/planet3.png"}
+                <Image alt="" src={"/images/planet3.png"}
                 fill
                     style={{objectFit:"contain"}}   
                 />
@@ -13,13 +13,13 @@ export default function SecThree(){
            <div className={styles.sbox}>
                 <div className={styles.tbox}>
                     <div className={styles.our}>
-                        <Image src={"/images/our.png"}
+                        <Image alt="" src={"/images/our.png"}
                         fill
                             style={{objectFit:"contain"}}   
                         />
                     </div>
                     <div className={styles.services}>
-                        <Image src={"/images/services.png"}
+                        <Image alt="" src={"/images/services.png"}
                         fill
                             style={{objectFit:"contain"}}   
                         />
