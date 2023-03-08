@@ -1,13 +1,28 @@
-/* .main {
-  background: black;
- 
-} */
+.main {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
 
 .main > section {
-  border: 2px dotted white;
+  /* border: 2px dotted white; */
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
+  scroll-snap-align: start;
+
+
 
 }
 
 
+.scroller {
+  height: 300px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
