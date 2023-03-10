@@ -1,8 +1,9 @@
 
 .s3 {
-    /* background: lightgray; */
     display: flex;
     align-items: center;
+
+  
 }
 
 .planet3 {
@@ -19,6 +20,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    
 }
 /* .tbox {
     border: 2px solid blue;

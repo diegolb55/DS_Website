@@ -1,11 +1,13 @@
 
 
 .s1{
-    /* background: lightslategrey; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+   
     
   }
   .planet1 {
