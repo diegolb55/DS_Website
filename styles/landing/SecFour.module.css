@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/UrbanSpace-Italic.ttf') format('truetype');
+    
+}
+
 .s4 {
     display: flex;
 
@@ -20,7 +26,7 @@
 }
 .b4 {
     /* border: 2px solid red; */
-    width: 100%;
+    width: fit-content;
     max-width: 500px;
     align-self: center;
     padding: 0 20px;
@@ -34,19 +40,20 @@
 }
 .our {
     /* border: 2px solid white; */
-    position: relative;
-    height: 100px;
-    width: 30%;
-    align-self: flex-start;
+    padding-left: 20px;
+    font-weight: 72;
+    color: yellow;
+    font-family: 'MyCustomFont';
+    font-size: 5rem;
 
     
 }
 
 .projects {
     /* border: 2px solid white; */
-    position: relative;
-    height: 100px;
-    width: 80%;
-    align-self: flex-end;
+    font-weight: 72;
+    color: yellow;
+    font-family: 'MyCustomFont';
+    font-size: 5rem;
 
 }

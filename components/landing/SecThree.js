@@ -12,18 +12,9 @@ export default function SecThree(){
             </div>
            <div className={styles.sbox}>
                 <div className={styles.tbox}>
-                    <div className={styles.our}>
-                        <Image alt="" src={"/images/our.png"}
-                        fill
-                            style={{objectFit:"contain"}}   
-                        />
-                    </div>
-                    <div className={styles.services}>
-                        <Image alt="" src={"/images/services.png"}
-                        fill
-                            style={{objectFit:"contain"}}   
-                        />
-                    </div>
+                    <h3 className={styles.our}>OUR</h3>
+                    <h3 className={styles.services}>SERVICES</h3>
+
                 </div>
            </div>
 

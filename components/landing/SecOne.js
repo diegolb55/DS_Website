@@ -10,18 +10,8 @@ export default function SecOne(){
                 style={{objectFit:"contain"}}   
               />
           </div>
-          <div className={styles.spaces}>
-            <Image alt="" src={"/images/digital.png"}
-              fill
-              style={{objectFit:"contain"}}   
-            />
-          </div>
-          <div className={styles.spaces}>
-            <Image alt="" src={"/images/spaces.png"}
-              fill
-              style={{objectFit:"contain"}}   
-            />
-          </div>
+          <h1 className={styles.ds}>Digital <br/>Spaces</h1>
+
           <div className={styles.planet2}>
             <Image alt="" src={"/images/planet2.png"}
               fill

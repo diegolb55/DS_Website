@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/UrbanSpace-Italic.ttf') format('truetype');
+  
+}
 
 
 .s1{
@@ -17,18 +22,19 @@
     height: 400px;
     width: 100%;
   }
-  .spaces {
-    /* border: 2px dotted yellow; */
-  
-    position: relative;
-    right: 10%;
-    height: 80px;
-    width: 300px;
+ 
+  .ds {
+    font-weight: 72;
+    color: yellow;
+    font-family: 'MyCustomFont';
+    font-size: 5rem;
+    z-index: 1;
+    /* border: 2px solid white; */
   }
   .planet2{
   
     /* border: 2px dotted yellow; */
-  
+    z-index: 2;
     position: absolute;
     bottom: 0;
     right: -100px;
@@ -38,6 +44,10 @@
   
   
 @media screen and (min-width: 1300px) {
+    
+    .ds {
+      font-size: 10rem;
+    }
     .planet1 {
       top: -450px;
       height: 1000px;
@@ -55,6 +65,7 @@
    
   }
   @media screen and (max-width: 600px) {
+    
     .planet1 {
       width: 300%;
       height: 300px;

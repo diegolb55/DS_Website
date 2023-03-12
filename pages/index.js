@@ -35,18 +35,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
-      <main  className={styles.main} style={{height:height}}>
+      <main  className={styles.main} 
+      
+      >
         <SecOne />
         <SecTwo/>
         <SecThree/>
         <SecFour/>
         <SecFive />
       </main>
-      {/* <SecOne />
-      <SecTwo/>
-      <SecThree/>
-      <SecFour/>
-      <SecFive /> */}
+      
       
        
         

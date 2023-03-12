@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/UrbanSpace-Italic.ttf') format('truetype');
+    
+}
+
+.s5 {
+    /* border: 2px solid gold; */
+    display: flex;
+    align-items: center;
+}
+
+.readyto {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100px;
+}
+.planet6 {
+    /* border: 2px solid gold; */
+
+    position: absolute;
+    bottom: -100px;
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .planet6 {
+        bottom: -200px;
+        height: 600px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .planet6 {
+        bottom: -400px;
+        height: 800px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .planet6 {
+        bottom: -600px;
+        height: 1000px;
+    }
+}

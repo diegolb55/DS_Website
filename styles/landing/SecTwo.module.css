@@ -1,4 +1,13 @@
-
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/UrbanSpace-Italic.ttf') format('truetype');
+  
+}
+@font-face {
+  font-family: 'MyCustomFont2';
+  src: url('/fonts/UrbanSpace-Regular.ttf') format('truetype');
+  font-weight: 12;
+}
 
 .s2 {
   display: flex;
@@ -6,12 +15,11 @@
 
 }
 .box2 {
-  /* border: 2px solid white; */
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  max-width: 400px;
+  width: 300px;
   margin: 0 auto;
   position: relative;
 }
@@ -21,8 +29,11 @@
 }
 .elev {
   /* border: 2px solid white; */
-  position: relative;
-  right: 50px;
+  width: fit-content;
+  font-weight: 72;
+  color: yellow;
+  font-family: 'MyCustomFont';
+  font-size: 5rem;
   
 }
 .mascot {
@@ -32,38 +43,47 @@
   
 }
 .ate {
-  position: relative;
-  left: 50px;
+  /* border: 2px solid white; */
+  width: fit-content;
+  align-self: flex-end;
+  font-weight: 1;
+  color: yellow;
+  font-family: 'MyCustomFont';
+  font-size: 5rem;
 }
 
-.tothemoon{
+
+
+.tothemoon {
   /* border: 2px solid white; */
-  position: relative;
-  height: 50px;
-  width: 70%;
-  margin: 0 auto;
+  text-align: center;
+  color: yellow;
+  font-family: 'MyCustomFont2';
 }
 
 @media screen and (min-width: 1300px) {
   
 
   .box2 {
-    max-width: 500px;
+    /* border: 2px solid blue; */
+    width: 600px;
   }
-  .b2elements {
-    height: 200px;
+  .elev, .ate {
+    font-size: 6rem;
   }
-  .elev {
-      right: 150px;
-  }
+  
   .mascot {
       height: 300px;
   }
-  .ate {
-      left: 150px;
+  .tothemoon {
+    padding-top: 150px;
+    font-size: 1.5rem;
   }
+
 }
 @media screen and (max-width: 600px){
+
+ 
   .b2elements {
       height: 100px;
   }

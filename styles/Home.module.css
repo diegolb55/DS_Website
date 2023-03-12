@@ -3,9 +3,19 @@
   /* border: 5px solid red; */
  
   /* height: 100vh; */
-  overflow-x: hidden;
+  /* overflow-x: hidden;
   scroll-snap-type: y mandatory;
+  overflow-y: scroll; */
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+
   overflow-y: scroll;
+
+  overflow-x: hidden;
 
 }
 
@@ -15,10 +25,16 @@
 }
 */
 .main > section {
-  position: relative;
+  /* position: relative;
   height: 100%;
 
   width: 100%;
+  scroll-snap-align: start; */
+
+
+  /* border: 2px solid white; */
+  position: relative;
+  min-height: 100vh;
   scroll-snap-align: start;
 
 

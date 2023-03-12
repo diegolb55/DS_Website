@@ -17,18 +17,8 @@ export default function SecFour(){
                 />
             </div>
             <div className={styles.b4}>
-                <div className={styles.our}>
-                    <Image alt="" fill
-                        style={{objectFit:"contain"}}
-                        src="/images/our.png"
-                    />
-                </div>
-                <div className={styles.projects}>
-                    <Image alt="" fill
-                        style={{objectFit:"contain"}}
-                        src="/images/services.png"
-                    />
-                </div>
+                <h3 className={styles.our}>OUR</h3>
+                <h3 className={styles.projects}>PROJECTS</h3>
             </div>
             
 
